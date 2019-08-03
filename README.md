@@ -1,4 +1,4 @@
-#SWE-Society, Font-END.
+#SWE-Society, Front-END.
 
 GROUP NAME: RUNTIME TERROR
 
