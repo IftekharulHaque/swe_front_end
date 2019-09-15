@@ -12,7 +12,7 @@
   
 }
 a {
-  color: #1e1e1e;
+  color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -30,14 +30,14 @@ a:hover {
   color: aliceblue;
 }
 .navbar-brand{
-  color: #333333;
+  color: white;
   font-weight:bold;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   
   
 }
 .navbar-brand:hover{
-  color: white;
+  color:#67dcff7c;
 }
 #navbarDefault{
   color: #4e4e4e;
@@ -80,7 +80,7 @@ a:hover {
 
 
 
- .* {
+ .{
   box-sizing: border-box;
 }
 
