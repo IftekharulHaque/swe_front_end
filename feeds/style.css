@@ -121,3 +121,6 @@
 .list-unstyled a{
     color: white;
 }
+.site-section {
+  padding-block-start: 1%;
+}
