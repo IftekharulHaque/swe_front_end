@@ -5,12 +5,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#head {
-    background-image: url(/image/dark.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 80vh;
-}
 
 a {
     color: #ffffff;
@@ -201,13 +195,13 @@ a:hover {
     margin: 0px;
     padding: 300px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: url(login.jpeg) no-repeat;
+    background: url(login.jpg) no-repeat;
     background-size: cover;
 }
 .logn {
-    width: 180px;
+    width: 250px;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -257,4 +251,7 @@ a:hover {
     font: 15px;
     cursor: pointer;
     margin: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+    
 }
