@@ -114,6 +114,7 @@
        background-color: #292b2c;
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
        color: white;
+       margin-top: 200px;
    }
 #confoot{
     padding-block-start: 5%;
@@ -368,3 +369,213 @@ padding-block-end: 5%;}
  
  color:rgba(0, 46, 65, 0.486)
  } 
+ /* tabs    */
+ 
+
+
+
+
+
+ body {background:#7cbac1; margin: 0;}
+/* Vertical Tabs */
+ .vertical-tabs{
+    font-size:25px;
+    padding:10px;
+    color:#000
+}
+ .vertical-tabs .nav-tabs .nav-link{
+    border-radius: 0;
+    background:#292b2c;
+    text-align:center;
+    font-size: 16px;
+    border:1px solid #424242;
+    color:#fff;
+    height:80px;
+    width left: 20px; 
+}
+ .vertical-tabs .nav-tabs .nav-link.active{
+    background-color:#700000!important;
+    color:#fff;
+}
+ .vertical-tabs .tab-content>.active{
+    background:#fff;
+    display:block;
+}
+ .vertical-tabs .nav.nav-tabs{
+    border-bottom:0;
+    border-right:3px solid #000;
+    display:block;
+    float:left;
+    margin-right:20px;
+    padding-right:15px;
+    margin-top: 100px;
+}
+ .vertical-tabs .sv-tab-panel{
+    background:#fff;
+    height:274px;
+    padding-top:10px;
+}
+@media only screen and (max-width: 420px){
+  .titulo{font-size: 22px}
+}
+@media only screen and (max-width: 325px){
+  .vertical-tabs{ padding:8px;}
+}
+
+#con-num{
+    margin-top: 100px;
+}
+
+
+/*    tabs element           */
+
+
+
+
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+.our-webcoderskull{
+  background: ;
+  
+}
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+#tabsid{
+    margin-top: 70px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
