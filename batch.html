@@ -14,17 +14,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <!-- Libraries font Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -39,7 +28,10 @@
         <header id="head">
             <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-default" id="mainNav">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">SWE SOCIETY</a>
+                        <a class="navbar-brand" href="index.html">
+                                <img src="./image/logo1.png" width="100px">
+            
+                            </a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
               <span class="fa fa-bars"></span>
               </button>
@@ -80,7 +72,7 @@
                                 </h1>
                                 <p class="title">1ST BATCH<br> Session : 2016-17</p>
                                
-                                <p><button class="but">VIEW</button></p>
+                                
                             </div>
                         </div>
 
@@ -101,7 +93,7 @@
                                 <p class="title">2ND BATCH<br> Session : 2017-18</p>
                                 
                                     
-                                <p><button class="but">VIEW</button></p>
+                                
                             </div>
                         </div>
 
@@ -122,7 +114,7 @@
                                 </h1>
                                 <p class="title">3RD BATCH<br> Session : 2018-19</p>
                                 
-                                <p><button class="but">VIEW</button></p>
+                               
                             </div>
                         </div>
 
@@ -132,8 +124,35 @@
 
 
             </section>
+           
+                
+
+            <table align ="center" width="20%">
+                    <tr>
+                      <td style="padding-right: 10px">
+                        <input type="text" id="Search" onkeyup="myFunction()" placeholder="Search Batch" title="Type in a name">
+                      </td>
+                    </tr>
+                  </table>
+                  <br>
+
+                  <script>
+                  function myFunction() {
+  var input = document.getElementById("Search");
+  var filter = input.value.toLowerCase();
+  var nodes = document.getElementsByClassName('card');
+
+  for (i = 0; i < nodes.length; i++) {
+    if (nodes[i].innerText.toLowerCase().includes(filter)) {
+      nodes[i].style.display = "block";
+    } else {
+      nodes[i].style.display = "none";
+    }
+  }
+}</script>
 
 
+</header>
 
 
 

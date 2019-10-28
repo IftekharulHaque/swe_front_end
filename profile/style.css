@@ -4,13 +4,9 @@
     color: aliceblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-  #head{
-    background-image: url(/image/dark.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 80vh;
+ 
     
-  }
+  
   a {
     color: #ffffff;
     transition: all 0.5s ease-in-out;
@@ -220,14 +216,14 @@ padding-block-end: 5%;}
 
   /* profile */
   body{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #e1e1e2, #d8d8d8);
 }
 .emp-profile{
     padding: 3%;
     margin-top: 7%;
     margin-bottom: 3%;
-    border-radius: 0.5rem;
-    background: #fff;
+    border-radius: 0.1rem;
+    background: white;
 }
 .profile-img{
     text-align: center;
@@ -254,9 +250,11 @@ padding-block-end: 5%;}
 }
 .profile-head h5{
     color: #333;
+    font-weight: bold;
 }
 .profile-head h6{
-    color: #0062cc;
+    color: #4e4e4e;
+    font-weight: bolder;
 }
 .profile-edit-btn{
     border: none;
@@ -268,9 +266,11 @@ padding-block-end: 5%;}
     cursor: pointer;
 }
 .proile-rating{
-    font-size: 12px;
+    font-size: 15px;
     color: #818182;
     margin-top: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
 }
 .proile-rating span{
     color: #495057;
@@ -293,24 +293,29 @@ padding-block-end: 5%;}
     margin-top: -15%;
 }
 .profile-work p{
-    font-size: 12px;
-    color: #818182;
-    font-weight: 600;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000008;
+    font-weight: bolder;
     margin-top: 10%;
 }
 .profile-work a{
     text-decoration: none;
     color: #495057;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 14px;
 }
 .profile-work ul{
     list-style: none;
 }
 .profile-tab label{
-    font-weight: 600;
+    font-weight: bolder;
 }
 .profile-tab p{
-    font-weight: 600;
-    color: #0062cc;
+    font-weight: bold;
+    color:#6c757d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#id a{
+  font-weight: bolder;
 }
