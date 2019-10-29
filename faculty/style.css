@@ -124,7 +124,7 @@
 .site-section {
   padding-block-start: 1%;
 }
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 #team {
     background: #eee !important;
 }
@@ -185,7 +185,7 @@ section .section-title {
     -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
-    transition: 1s;
+    transition: 0s;
     transform-style: preserve-3d;
     position: relative;
 }
@@ -256,32 +256,9 @@ section .section-title {
     padding-block-start: 3%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+
 
 .fa:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
