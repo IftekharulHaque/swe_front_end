@@ -722,3 +722,6 @@ h1
     text-decoration: none ;
 }
 
+.nav-item > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
