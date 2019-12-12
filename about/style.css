@@ -8,7 +8,7 @@
     background-image: url(/image/dark.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 80vh;
+    height: 0vh;
     
   }
   a {
@@ -724,4 +724,8 @@ h1
 
 .nav-item > .active > a, .nav-pills > .active > a:hover {
     background-color: red;
+}
+
+.row h5{
+    text-align: center;
 }
