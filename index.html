@@ -84,7 +84,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
 
-            <h3>SWE-SOCIETY</h3>
+            <h3>SWE SOCIETY</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     </div>
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <section class="section intro">
+   <!-- <section class="section intro">
             <div class="container">
               <h3 style="color: white;">EVENTS</h3>
             </div>
@@ -151,7 +151,7 @@
               <li>
                 <div>
                   
-                  <time>1 DEC</time>>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                  <time>1 DEC</time>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                   
                 </div>
               </li>
@@ -325,7 +325,110 @@
                   });
                 }
               
-              })();</script>
+              })();</script> -->
+
+
+
+
+
+
+              <!------>
+              <section class="section intro">
+                <div class="container">
+                  <h3 style="color: white;">EVENTS</h3>
+                </div>
+              </section>
+              <div class="timeline-carousel">
+                
+                <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+                
+                </div>
+              </div>
+               
+              <!-- partial -->
+                <script src='https://code.jquery.com/jquery-3.4.1.min.js' type="text/javascript"></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+                <script type='text/javascript'>    
+                var publicSpreadsheetUrl = '1znAku0PXH31_0hH-z3b86DMBf_4jr7JBe4BDuuaDGTw';
+              
+                function init() {
+                  Tabletop.init( { key: publicSpreadsheetUrl,
+                                   callback: showInfo,
+                                   simpleSheet: true } )
+                }
+              
+                function showInfo(data, tabletop) {
+                  /*alert('Successfully processed!')*/
+                  console.log(data);
+                for(var i = 0;i < data.length; i++){
+                  $('.timeline-carousel__item-wrapper').slick('slickAdd',
+                  '<div class="timeline-carousel__item">' +
+                  '<div class="timeline-carousel__image">' +
+                  '<div class="media-wrapper media-wrapper--overlay" style="background: url(' + data[i].photo + ') center center; background-size:cover;"></div></div>' +
+                  '<div class="timeline-carousel__item-inner">' +
+                  '<span class="year">' + data[i].year + '</span>' +
+                  '<span class="month">' + data[i].month + '</span>' +
+                  '<p>' + data[i].caption + '</p>' +
+                  '<a href ="' + data[i].link + '" class="read-more">Read more</a></div></div>');
+                
+                }
+                }	 
+                window.addEventListener('DOMContentLoaded', init)
+                
+                $(document).ready(function(){
+                      $('.timeline-carousel__item-wrapper').slick({
+                      slidesToShow: 2,
+                      slidesToScroll: 1,
+                      
+                      autoplaySpeed: 2000,
+                      arrows: true
+                })
+                 });
+                
+                
+                </script>
+                <script>
+                  $.js = function (el) {
+    return $('[data-js=' + el + ']')
+};
+
+function carousel() {
+  $.js('timeline-carousel__item-wrapper').slick({
+	//centerPadding: '60px',
+	infinite: true,
+	slidesToShow: 2,
+    slidesToScroll: 2,
+    dots: true,
+	//speed: 500,
+	//centerMode: true,
+	//touchThreshold : 2,
+    arrows: true,	
+    /*autoplay: false,     
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+		  
+		  centerPadding:'40px',
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+	  {
+	    breakpoint: 800,
+		settings: {
+			
+			centerPadding:'40px'
+		}
+	  }
+	  ]*/
+  });
+}
+
+carousel();
+
+                </script>
 
 
 
